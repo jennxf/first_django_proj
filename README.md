@@ -14,4 +14,13 @@ Markdown syntax documentation: http://vi.stackexchange.com/editing-help
 	- have to use virtualenv for linux and not conda
 	- re-install django
 
-	
+- If changes are made to models.py:
+	- Locally you need to run ./manage.py makemigrations blog
+	- Then ./manage.py migrate
+	- git add, commit and push
+	- in other machines after git pull, they need to run ./manage.py migrate so changes are stored in the their DB.
+
+- How to Make a pull request:
+	1. fork the repo.
+	2. git clone the forked repo and make sure its the SSH URL and not the https one
+	3. create a branch. git checkout -b 	
