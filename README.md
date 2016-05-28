@@ -1,4 +1,5 @@
 # first_django_proj
 
-- this is a list
- - this is a sublist
+- source activate myvenv
+- source deactivate myvenv
+- docs for venv http://conda.pydata.org/docs/using/envs.html#list-all-environments
