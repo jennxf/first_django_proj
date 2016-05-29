@@ -8,6 +8,7 @@ Markdown syntax documentation: http://vi.stackexchange.com/editing-help
 	- conda create --name myvenv python=3
 	- re-install django: pip install django
 	- otherwise just do:source activate myvenv
+	- python manage.py runserver
 
 - to work on pythonanywhere.com
 	- use "https" when git clone the repo
@@ -23,4 +24,7 @@ Markdown syntax documentation: http://vi.stackexchange.com/editing-help
 - How to Make a pull request:
 	1. fork the repo.
 	2. git clone the forked repo and make sure its the SSH URL and not the https one
-	3. create a branch. git checkout -b 	
+	3. create a branch. git checkout -b 
+    4. make changes to the file.
+	5. git add, commit and push to your branch. 
+	6. go to github master branch and create a pull request.	
